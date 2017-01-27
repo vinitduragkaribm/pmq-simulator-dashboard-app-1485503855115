@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: pmq-simulator-dashboard-app
+  host: pmq-simulator-dashboard-app
+  disk_quota: 1024M
+  services:
+  - pmq-simulator-dashboard-app-cloudantNoSQLDB
+  - Internet of Things Platform-jz
